@@ -1,0 +1,33 @@
+body {
+    background-color:antiquewhite
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .box {
+    flex: 1;
+    height: 100px;
+    padding: 20px;
+  }
+  
+  .x {
+    background-color: green;
+    margin-right: 450px;
+  }
+  
+  .y {
+    background-color: rgb(30, 14, 208);
+    
+  }
+  
+  .z {
+    background-color: rgb(232, 4, 4);
+    margin-left: 450px;
+  }
+  
+  
