@@ -1,7 +1,7 @@
 body {
     font-family: 'Lobster', cursive;
     background-color: #e9f0f0;
-    color: #333;
+    color: #242424;
     margin: 0;
     padding: 0;
   }
@@ -30,11 +30,11 @@ body {
   }
   
   .card-description {
-    color: #333;
+    color: #232222;
   }
   
   .navbar-logo {
-    color: #e0dada;
+    color: #eee9e9;
     text-decoration: none;
   }
   
@@ -51,11 +51,30 @@ body {
   }
   
   .navbar-link a {
-    color: #e0dada;
+    color: #eae7e7;
     text-decoration: none;
   }
   
   .navbar-link a:hover {
     text-decoration: underline;
   }
-  
+  .left_button {
+    background-color: transparent;
+    border: 2px solid rgb(239, 7, 7);
+    width: 100px;
+  height: 40px;
+}
+.right_button {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid rgb(190, 241, 6) ;
+    width: 100px;
+    height: 40px;
+}
+
+.left_button:hover{
+    background-color: red;
+    }
+    .right_button:hover{
+    background-color:  rgb(233, 229, 13)
+    }
