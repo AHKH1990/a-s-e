@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex_7.2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/css/stylenav.css">
+    <style>
+      .navbar {
+        background-color: black;
+        color: #e0dada;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .navbar-logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #e0dada;
+        text-decoration: none;
+      }
+      
+      .navbar-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .navbar-link {
+        margin: 0 10px;
+      }
+      
+      .navbar-link a {
+        color: #e0dada;
+        text-decoration: none;
+      }
+      
+      .navbar-link a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="navbar-logo" href="#">Alps &amp; Tracks</a>
+      <ul class="navbar-links">
+        <li class="navbar-link"><a href="#">Home</a></li>
+        <li class="navbar-link"><a href="#">About</a></li>
+        <li class="navbar-link"><a href="#">Services</a></li>
+        <li class="navbar-link"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="card">
+    <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Lanersbach.jpg/1280px-Lanersbach.jpg" alt="Generic Photo" width="450">
+    <div class="card-content">
+      <h2 class="card-title">Family Track</h2>
+      <p class="card-description green-text">Good for families and first-timers who like to enjoy the path</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Saslong_udu_da_Sacun_ora.jpg/1280px-Saslong_udu_da_Sacun_ora.jpg" width="450">
+    <div class="card-content">
+      <h2 class="card-title">Pro Tracks</h2>
+      <p class="card-description blue-text">This is for those who like the adventure</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/1280px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg" alt="Generic Photo" width="450">
+    <div class="card-content">
+      <h2 class="card-title">Extreme Track</h2>
+      <p class="card-description red-text">Only for the bravest</p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="card-links">
+      <a class="card-link" href="#">Terms of Use</a>
+      <a class="card-link" href="#">Safety Rules</a>
+      <a class="card-link" href="#">Language</a>
+      <a class="card-link" href="#">Contact Us</a>
+    </div>
+    <p>ALPS &amp; TRACKS</p>
+  </footer>
+</body>
+</html>
