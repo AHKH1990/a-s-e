@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(36, 91, 122);
+text-align: center;
+
+}
+
+.left_button1,
+.right_button1,
+.left_button2,
+.right_button2,
+.left_button3,
+.right_button3,
+.left_button4,
+.right_button4 {
+    color: #f7f0f0; 
+}
+
+.inner_container {
+    position: relative;
+    height: auto;
+}
+
+.left_button1 {
+    background-color: rgb(45, 77, 255);
+  border: 2px solid transparent;
+  width: 100px;
+  height: 40px;
+}
+.right_button1 {
+    background-color: rgb(230, 190, 12);
+    border: 2px;
+    border: 2px solid transparent ;
+    width: 50px;
+    height: 20px;
+}
+
+.left_button2 {
+    background-color: rgb(11, 241, 11);
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: 100px;
+  height: 40px;
+    
+}
+.right_button2 {
+    background-color: rgb(230, 90, 113);
+    border-radius: 20px;
+    border: 2px solid transparent ;
+    
+}
+
+.left_button3 {
+    background-color: transparent;
+    border: 2px solid rgb(239, 7, 7);
+    width: 100px;
+  height: 40px;
+}
+.right_button3 {
+    background-color: transparent;
+    border: 2px;
+    border: 2px solid rgb(229, 18, 190) ;
+    width: 50px;
+    height: 20px
+
+    
+}
+
+.left_button4 {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid rgb(233, 229, 13);
+    width: 100px;
+  height: 40px;
+}
+.right_button4 {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid rgb(47, 163, 62) ;
+    width: 50px;
+    height: 20px;
+
+    
+}
+.left_button3:hover{
+background-color: red;
+}
+.left_button4:hover{
+background-color:  rgb(233, 229, 13)
+}
+.right_button3:hover{
+background-color:  rgb(229, 18, 190)
+}
+.right_button4:hover{
+background-color:  rgb(47, 163, 62)
+}
+{
+    
+}
