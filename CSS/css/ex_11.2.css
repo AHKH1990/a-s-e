@@ -1,0 +1,33 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    width: 500px;
+  }
+  
+  .box {
+    flex: 1;
+    height: 100px;
+    padding: 6px;
+    background-color: transparent;
+  }
+  
+  .x {
+    background-color: green;
+  }
+  
+  .y {
+    background-color: rgb(30, 14, 208);
+  }
+  
+  .z {
+    background-color: rgb(232, 4, 4);
+  }
+  
