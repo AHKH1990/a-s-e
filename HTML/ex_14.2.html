@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Effects on Boxes</title>
+  <style>
+    body {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 50px;
+    }
+    
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+    }
+    
+    .box {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background-color 1s ease-in-out;
+      overflow: hidden;
+    }
+    
+    .box::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(19, 11, 242);
+      transform: translateX(-100%);
+      transition: transform 2s linear;
+    }
+    
+    .box:hover::after {
+      transform: translateX(0%);
+    }
+
+    .box2 {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color:white;
+      overflow: hidden;
+      transition: height 1s ease-in-out;
+    }
+    
+    .box2::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 0;
+      background-color: white;
+      transition: height 1s ease-in-out;
+    }
+    
+    .box2:hover::after {
+      height: 100%;
+      background-color: rgb(237, 11, 11);
+    }
+
+    .box3 {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      transition: transform 1s linear;
+    }
+    
+    .box3:hover {
+      transform: rotate(360deg);
+    }
+
+    .box4 {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+      transition: transform 1s linear;
+    }
+    
+    .box4:hover {
+      transform: skew(20deg);
+    }
+
+    .box5 {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: black;
+      color: white;
+      font-size: 16px;
+      text-align: center;
+      line-height: 100px;
+      transition: transform 1s linear;
+    }
+    
+    .box5:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="box2"></div>
+      <div class="box"></div>
+      <div class="box3"></div>
+    </div>
+    <div class="row">
+      <div class="box4"></div>
+      <div class="box5">Text</div>
+    </div>
+  </div>
+</body>
+</html>
